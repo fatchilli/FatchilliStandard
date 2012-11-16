@@ -8,44 +8,13 @@
         <exclude name="PSR2.ControlStructures.SwitchDeclaration.SpaceBetweenCase"/>
         <exclude name="PSR2.ControlStructures.ElseIfDeclaration.NotAllowed"/>
         <exclude name="PSR1.Classes.ClassDeclaration.MissingNamespace"/>
+        <exclude name="PSR2.Files.EndFileNewline.NotFound"/>
     </rule>
 
-    <!--
-    <rule ref="Generic.Commenting.Fixme" />
-    <rule ref="Generic.Commenting.Todo" />
-
-    <rule ref="Generic.Files.ByteOrderMark" />
-    <rule ref="Generic.Files.LineEndings">
+    <rule ref="Generic.Files.LineLength">
         <properties>
-            <property name="eolChar" value="\n" />
+            <property name="lineLimit" value="150"/>
+            <property name="absoluteLineLimit" value="180"/>
         </properties>
     </rule>
-    <rule ref="Generic.Files.EndFileNewline" />
-
-    <rule ref="Generic.Formatting.DisallowMultipleStatements" />
-
-    <rule ref="Generic.Functions.CallTimePassByReference" />
-    <rule ref="Generic.Functions.FunctionCallArgumentSpacing" />
-    <rule ref="Generic.Functions.OpeningFunctionBraceKernighanRitchie" />
-
-    <rule ref="Generic.NamingConventions.CamelCapsFunctionName" />
-    <rule ref="Generic.NamingConventions.ConstructorName" />
-    <rule ref="Generic.NamingConventions.UpperCaseConstantName" />
-
-    <rule ref="Generic.PHP.DeprecatedFunctions" />
-    <rule ref="Generic.PHP.DisallowShortOpenTag" />
-    <rule ref="Generic.PHP.ForbiddenFunctions" />
-    <rule ref="Generic.PHP.LowerCaseConstant" />
-    <rule ref="Generic.PHP.NoSilencedErrors" />
-
-    <rule ref="Generic.WhiteSpace.DisallowTabIndent" />
-    <rule ref="Generic.WhiteSpace.ScopeIndent" />
-
-    <rule ref="PEAR.ControlStructures.MultiLineCondition" />
-
-    <rule ref="PEAR.Files.IncludingFile" />
-
-    <rule ref="PEAR.Functions.FunctionCallSignature" />
-    <rule ref="PEAR.Functions.ValidDefaultValue" />
-    -->
 </ruleset>
