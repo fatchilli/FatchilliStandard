@@ -9,6 +9,7 @@
         <exclude name="PSR2.ControlStructures.ElseIfDeclaration.NotAllowed"/>
         <exclude name="PSR1.Classes.ClassDeclaration.MissingNamespace"/>
         <exclude name="PSR2.Files.EndFileNewline.NotFound"/>
+        <exclude name="PSR1.Files.SideEffects.FoundWithSymbols"/>
     </rule>
 
     <rule ref="Generic.Files.LineLength">
