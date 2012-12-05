@@ -10,6 +10,7 @@
         <exclude name="PSR1.Classes.ClassDeclaration.MissingNamespace"/>
         <exclude name="PSR2.Files.EndFileNewline.NotFound"/>
         <exclude name="PSR1.Files.SideEffects.FoundWithSymbols"/>
+        <exclude name="FatchilliStandard.ControlStructures.SwitchDeclaration.TerminatingComment"/>
     </rule>
 
     <rule ref="Generic.Files.LineLength">
